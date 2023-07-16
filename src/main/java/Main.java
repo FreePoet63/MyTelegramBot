@@ -1,13 +1,9 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.*;
 import org.apache.http.impl.client.*;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class Main {
     public static final String url = "https://api.nasa.gov/planetary/apod?api_key=t6vrLa00HifAiOxiJpCwawMo3C8A0G5PuEfD7YnR";
