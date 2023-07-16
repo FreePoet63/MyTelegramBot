@@ -6,7 +6,7 @@ import org.apache.http.impl.client.*;
 import java.io.*;
 
 public class Main {
-    public static final String url = "https://api.nasa.gov/planetary/apod?api_key=t6vrLa00HifAiOxiJpCwawMo3C8A0G5PuEfD7YnR";
+    public static final String url = "https://api.nasa.gov/planetary/apod?api_key=ВАШ КЛЮЧ";
     public static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) throws IOException {
