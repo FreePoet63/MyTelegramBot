@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <httpclient.version>4.5.14</httpclient.version>
         <jackson.version>2.15.1</jackson.version>
+        <telegram.bot.version>6.1.0</telegram.bot.version>
     </properties>
 
     <dependencies>
@@ -26,6 +27,11 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>${telegram.bot.version}</version>
         </dependency>
     </dependencies>
 
